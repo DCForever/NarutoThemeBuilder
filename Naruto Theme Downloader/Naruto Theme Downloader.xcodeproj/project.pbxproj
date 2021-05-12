@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7FB3135264C2B6000F08B17 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB3134264C2B6000F08B17 /* Tests_iOS.swift */; };
+		B7FB3140264C2B6000F08B17 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB313F264C2B6000F08B17 /* Tests_macOS.swift */; };
+		B7FB3142264C2B6000F08B17 /* Naruto_Theme_DownloaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB3119264C2B5F00F08B17 /* Naruto_Theme_DownloaderApp.swift */; };
+		B7FB3143264C2B6000F08B17 /* Naruto_Theme_DownloaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB3119264C2B5F00F08B17 /* Naruto_Theme_DownloaderApp.swift */; };
+		B7FB3144264C2B6000F08B17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB311A264C2B5F00F08B17 /* ContentView.swift */; };
+		B7FB3145264C2B6000F08B17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB311A264C2B5F00F08B17 /* ContentView.swift */; };
+		B7FB3146264C2B6000F08B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7FB311B264C2B6000F08B17 /* Assets.xcassets */; };
+		B7FB3147264C2B6000F08B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7FB311B264C2B6000F08B17 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7FB3131264C2B6000F08B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7FB3114264C2B5F00F08B17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7FB311F264C2B6000F08B17;
+			remoteInfo = "Naruto Theme Downloader (iOS)";
+		};
+		B7FB313C264C2B6000F08B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7FB3114264C2B5F00F08B17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7FB3127264C2B6000F08B17;
+			remoteInfo = "Naruto Theme Downloader (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7FB3119264C2B5F00F08B17 /* Naruto_Theme_DownloaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naruto_Theme_DownloaderApp.swift; sourceTree = "<group>"; };
+		B7FB311A264C2B5F00F08B17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7FB311B264C2B6000F08B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7FB3120264C2B6000F08B17 /* Naruto Theme Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Naruto Theme Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FB3123264C2B6000F08B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FB3128264C2B6000F08B17 /* Naruto Theme Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Naruto Theme Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FB312A264C2B6000F08B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FB312B264C2B6000F08B17 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B7FB3130264C2B6000F08B17 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FB3134264C2B6000F08B17 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		B7FB3136264C2B6000F08B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FB313B264C2B6000F08B17 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FB313F264C2B6000F08B17 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		B7FB3141264C2B6000F08B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7FB311D264C2B6000F08B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FB3125264C2B6000F08B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FB312D264C2B6000F08B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FB3138264C2B6000F08B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7FB3113264C2B5F00F08B17 = {
+			isa = PBXGroup;
+			children = (
+				B7FB3118264C2B5F00F08B17 /* Shared */,
+				B7FB3122264C2B6000F08B17 /* iOS */,
+				B7FB3129264C2B6000F08B17 /* macOS */,
+				B7FB3133264C2B6000F08B17 /* Tests iOS */,
+				B7FB313E264C2B6000F08B17 /* Tests macOS */,
+				B7FB3121264C2B6000F08B17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7FB3118264C2B5F00F08B17 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB3119264C2B5F00F08B17 /* Naruto_Theme_DownloaderApp.swift */,
+				B7FB311A264C2B5F00F08B17 /* ContentView.swift */,
+				B7FB311B264C2B6000F08B17 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B7FB3121264C2B6000F08B17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB3120264C2B6000F08B17 /* Naruto Theme Downloader.app */,
+				B7FB3128264C2B6000F08B17 /* Naruto Theme Downloader.app */,
+				B7FB3130264C2B6000F08B17 /* Tests iOS.xctest */,
+				B7FB313B264C2B6000F08B17 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7FB3122264C2B6000F08B17 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB3123264C2B6000F08B17 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		B7FB3129264C2B6000F08B17 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB312A264C2B6000F08B17 /* Info.plist */,
+				B7FB312B264C2B6000F08B17 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		B7FB3133264C2B6000F08B17 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB3134264C2B6000F08B17 /* Tests_iOS.swift */,
+				B7FB3136264C2B6000F08B17 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		B7FB313E264C2B6000F08B17 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB313F264C2B6000F08B17 /* Tests_macOS.swift */,
+				B7FB3141264C2B6000F08B17 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7FB311F264C2B6000F08B17 /* Naruto Theme Downloader (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FB314A264C2B6000F08B17 /* Build configuration list for PBXNativeTarget "Naruto Theme Downloader (iOS)" */;
+			buildPhases = (
+				B7FB311C264C2B6000F08B17 /* Sources */,
+				B7FB311D264C2B6000F08B17 /* Frameworks */,
+				B7FB311E264C2B6000F08B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Naruto Theme Downloader (iOS)";
+			productName = "Naruto Theme Downloader (iOS)";
+			productReference = B7FB3120264C2B6000F08B17 /* Naruto Theme Downloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7FB3127264C2B6000F08B17 /* Naruto Theme Downloader (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FB314D264C2B6000F08B17 /* Build configuration list for PBXNativeTarget "Naruto Theme Downloader (macOS)" */;
+			buildPhases = (
+				B7FB3124264C2B6000F08B17 /* Sources */,
+				B7FB3125264C2B6000F08B17 /* Frameworks */,
+				B7FB3126264C2B6000F08B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Naruto Theme Downloader (macOS)";
+			productName = "Naruto Theme Downloader (macOS)";
+			productReference = B7FB3128264C2B6000F08B17 /* Naruto Theme Downloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7FB312F264C2B6000F08B17 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FB3150264C2B6000F08B17 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				B7FB312C264C2B6000F08B17 /* Sources */,
+				B7FB312D264C2B6000F08B17 /* Frameworks */,
+				B7FB312E264C2B6000F08B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7FB3132264C2B6000F08B17 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = B7FB3130264C2B6000F08B17 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B7FB313A264C2B6000F08B17 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FB3153264C2B6000F08B17 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				B7FB3137264C2B6000F08B17 /* Sources */,
+				B7FB3138264C2B6000F08B17 /* Frameworks */,
+				B7FB3139264C2B6000F08B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7FB313D264C2B6000F08B17 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = B7FB313B264C2B6000F08B17 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7FB3114264C2B5F00F08B17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B7FB311F264C2B6000F08B17 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					B7FB3127264C2B6000F08B17 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					B7FB312F264C2B6000F08B17 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B7FB311F264C2B6000F08B17;
+					};
+					B7FB313A264C2B6000F08B17 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B7FB3127264C2B6000F08B17;
+					};
+				};
+			};
+			buildConfigurationList = B7FB3117264C2B5F00F08B17 /* Build configuration list for PBXProject "Naruto Theme Downloader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7FB3113264C2B5F00F08B17;
+			productRefGroup = B7FB3121264C2B6000F08B17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7FB311F264C2B6000F08B17 /* Naruto Theme Downloader (iOS) */,
+				B7FB3127264C2B6000F08B17 /* Naruto Theme Downloader (macOS) */,
+				B7FB312F264C2B6000F08B17 /* Tests iOS */,
+				B7FB313A264C2B6000F08B17 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7FB311E264C2B6000F08B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FB3146264C2B6000F08B17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FB3126264C2B6000F08B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FB3147264C2B6000F08B17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FB312E264C2B6000F08B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FB3139264C2B6000F08B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7FB311C264C2B6000F08B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FB3144264C2B6000F08B17 /* ContentView.swift in Sources */,
+				B7FB3142264C2B6000F08B17 /* Naruto_Theme_DownloaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FB3124264C2B6000F08B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FB3145264C2B6000F08B17 /* ContentView.swift in Sources */,
+				B7FB3143264C2B6000F08B17 /* Naruto_Theme_DownloaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FB312C264C2B6000F08B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FB3135264C2B6000F08B17 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FB3137264C2B6000F08B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FB3140264C2B6000F08B17 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7FB3132264C2B6000F08B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7FB311F264C2B6000F08B17 /* Naruto Theme Downloader (iOS) */;
+			targetProxy = B7FB3131264C2B6000F08B17 /* PBXContainerItemProxy */;
+		};
+		B7FB313D264C2B6000F08B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7FB3127264C2B6000F08B17 /* Naruto Theme Downloader (macOS) */;
+			targetProxy = B7FB313C264C2B6000F08B17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7FB3148264C2B6000F08B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7FB3149264C2B6000F08B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B7FB314B264C2B6000F08B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72D28L96H4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielAndIan.Naruto-Theme-Downloader";
+				PRODUCT_NAME = "Naruto Theme Downloader";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7FB314C264C2B6000F08B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72D28L96H4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielAndIan.Naruto-Theme-Downloader";
+				PRODUCT_NAME = "Naruto Theme Downloader";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7FB314E264C2B6000F08B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 72D28L96H4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielAndIan.Naruto-Theme-Downloader";
+				PRODUCT_NAME = "Naruto Theme Downloader";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B7FB314F264C2B6000F08B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 72D28L96H4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielAndIan.Naruto-Theme-Downloader";
+				PRODUCT_NAME = "Naruto Theme Downloader";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B7FB3151264C2B6000F08B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72D28L96H4;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielAndIan.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Naruto Theme Downloader (iOS)";
+			};
+			name = Debug;
+		};
+		B7FB3152264C2B6000F08B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72D28L96H4;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielAndIan.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Naruto Theme Downloader (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7FB3154264C2B6000F08B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 72D28L96H4;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielAndIan.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Naruto Theme Downloader (macOS)";
+			};
+			name = Debug;
+		};
+		B7FB3155264C2B6000F08B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 72D28L96H4;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielAndIan.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Naruto Theme Downloader (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7FB3117264C2B5F00F08B17 /* Build configuration list for PBXProject "Naruto Theme Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FB3148264C2B6000F08B17 /* Debug */,
+				B7FB3149264C2B6000F08B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FB314A264C2B6000F08B17 /* Build configuration list for PBXNativeTarget "Naruto Theme Downloader (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FB314B264C2B6000F08B17 /* Debug */,
+				B7FB314C264C2B6000F08B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FB314D264C2B6000F08B17 /* Build configuration list for PBXNativeTarget "Naruto Theme Downloader (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FB314E264C2B6000F08B17 /* Debug */,
+				B7FB314F264C2B6000F08B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FB3150264C2B6000F08B17 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FB3151264C2B6000F08B17 /* Debug */,
+				B7FB3152264C2B6000F08B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FB3153264C2B6000F08B17 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FB3154264C2B6000F08B17 /* Debug */,
+				B7FB3155264C2B6000F08B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7FB3114264C2B5F00F08B17 /* Project object */;
+}
